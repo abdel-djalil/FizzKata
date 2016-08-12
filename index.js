@@ -1,7 +1,6 @@
 var fizzBuzz  = require('./lib/fizzBuzz.js').Program;
-process.argv.forEach(function (val, index, array) {
-  console.log(index + ': ' + val);
-  var param1 = array[2];
-  var param2 = array[3];
-  
-});
+var params = process.argv;
+// Program launched with  2 parametres 
+if(params[3]){
+	console.log("il y'a deux paramaters !");
+}

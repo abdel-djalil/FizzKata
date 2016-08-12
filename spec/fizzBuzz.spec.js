@@ -43,6 +43,18 @@ describe("Test fizzBuzz", function() {
 		expect(fizzBuzz.run(3, 2, 5)[1]).toEqual('Fizz');
 		expect(fizzBuzz.run(3, 2, 5)[3]).toEqual('Fizz');
 		expect(fizzBuzz.run(3, 2, 5)[5]).toEqual('Fizz');
+	});
+
+	it("-- test versions 3 -- should return Buzz instead of multiples of 6 ", function(){
+		expect(fizzBuzz.run(3, 5, 6)[5]).toEqual('Buzz');
+		expect(fizzBuzz.run(3, 5, 6)[11]).toEqual('Buzz');
+		expect(fizzBuzz.run(3, 5, 6)[17]).toEqual('Buzz');
+	});	
+
+	it("-- test versions 3 -- should return FizzBuzz instead of multiples of 2&6 ", function(){
+		expect(fizzBuzz.run(3, 3, 5)[14]).toEqual('FizzBuzz');
+		expect(fizzBuzz.run(3, 3, 5)[29]).toEqual('FizzBuzz');
+		expect(fizzBuzz.run(3, 3, 5)[74]).toEqual('FizzBuzz');
 	});	
 	
 });

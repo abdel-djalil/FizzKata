@@ -1,0 +1,30 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.2",
+  "description": "program to print numbers between 1-100 with fizz instead of multiple of 3 and buzz instead of multiples of 5 and fizzBuzz instead of multiples of 3 & 5 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node spec --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdel-djalil/FizzKata.git"
+  },
+  "keywords": [
+    "kata",
+    "fizzbuzz",
+    "javascript"
+  ],
+  "author": "abdeldjlalil benkoussas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdel-djalil/FizzKata/issues"
+  },
+  "homepage": "https://github.com/abdel-djalil/FizzKata#readme",
+  "devDependencies": {
+    "jasmine": "^2.4.1"
+  },
+  "dependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}

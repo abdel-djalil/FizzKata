@@ -1,21 +1,13 @@
 var fizzBuzz  = require('../lib/fizzBuzz').Program;
 
 describe("Test fizzBuzz", function() {
-	//test helper function isMultipleOf3 
+	//test helper function isMultiple 
 	it("should return true if number is multiples of 3", function(){
-		expect(fizzBuzz.isMultipleOf3(3)).toEqual(true)	;
+		expect(fizzBuzz.isMultiple(3,3)).toEqual(true)	;
 	});
-	//test helper function isMultipleOf3 
+	  
 	it("should return false if number is not multiples of 3", function(){
-		expect(fizzBuzz.isMultipleOf3(8)).toEqual(false)	;
-	});
-	//test helper function isMultipleOf5 
-	it("should return true if number is multiples of 5", function(){
-		expect(fizzBuzz.isMultipleOf5(5)).toEqual(true)	;
-	});
-	//test helper function isMultipleOf5 
-	it("should return false if number is not a multiples of 5", function(){
-		expect(fizzBuzz.isMultipleOf5(8)).toEqual(false);	;
+		expect(fizzBuzz.isMultiple(8,3)).toEqual(false)	;
 	});
 
 	it(" -- test versions 1 -- should return 100 numbers", function(){

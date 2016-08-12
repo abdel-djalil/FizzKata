@@ -5,8 +5,8 @@ version 1 :
 version 2 : 
 	returne nombres entre 1-100 mais "Fizz" au lieu de multiples de 3 et "Buzz" au lieu 5 et "FizzBuzz" au lieu de multiples de 3 et 5	
 	
-Lancement de tests 
-avant lancement :
-  - "npm install -g jasmine-node && npm upgrade jasmine-node"
-script:
-  - "jasmine-node spec --verbose"
+Avant lancement :
+  - installation des libs "npm install "
+
+scripts:
+  - Pour lançer les tests "npm test "

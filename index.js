@@ -1,5 +1,5 @@
-var fizzBuzz  = require('./lib/fizzBuzz.js').Program;
-
+var Program  = require('./lib/fizzBuzz.js');
+var fizzBuzz = new Program();
 var params = process.argv;
 // Program launched with  rules 
 if(params[3]){

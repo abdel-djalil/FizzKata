@@ -4,6 +4,7 @@
   "description": "program to print numbers between 1-100 with fizz instead of multiple of 3 and buzz instead of multiples of 5 and fizzBuzz instead of multiples of 3 & 5 ",
   "main": "index.js",
   "scripts": {
+    "start" : "node index.js",
     "test": "jasmine-node spec --verbose"
   },
   "repository": {

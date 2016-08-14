@@ -11,19 +11,19 @@ returne nombres entre 1-100 mais "Fizz" "Buzz" des multiples de nombres passer e
 ## Prérequis :
 Node installé sur la machine 
 
-##Demo & instuction nstallation :
+##Demo & instuctions d'installation et lancement:
 
 1- cloner le repo `git clone https://github.com/abdel-djalil/FizzKata.git`
 
 2- installer les dépendences  `npm install`
 
-3- lancer l'application `node index.js {rule}` 
+3- lancer l'application `npm start {rule}` 
 
 ##lancer les tests  :
 - lancer la commande 'npm test'
  
 ## examples de commande  :
 - example avec rules (V3): 
-	`node index.js 3 5`  
+	`npm start 3 5`  
 - example sans rules (V2): 
-	`node index.js`
+	`npm start`

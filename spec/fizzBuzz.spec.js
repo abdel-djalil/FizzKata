@@ -1,6 +1,7 @@
 var fizzBuzz  = require('../lib/fizzBuzz').Program;
 
 describe("Test fizzBuzz", function() {
+	
 	//test helper function isMultiple 
 	it("should return true if number is multiples of 3", function(){
 		expect(fizzBuzz.isMultiple(3,3)).toEqual(true)	;

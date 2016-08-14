@@ -13,12 +13,9 @@ Node installé sur la machine
 
 ##Demo & instuction nstallation :
 
-1- cloner le repo 	
-	`git clone https://github.com/abdel-djalil/FizzKata.git`
-3- taper la commande  
-	`npm install`
-4- lancer l'application 
-	`node index.js {rule}` 
+1- cloner le repo `git clone https://github.com/abdel-djalil/FizzKata.git`
+2- installer les dépendences  `npm install`
+3- lancer l'application `node index.js {rule}` 
 
 ##lancer les tests  :
 - lancer la commande 'npm test'

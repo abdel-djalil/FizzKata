@@ -1,5 +1,5 @@
 ##Context : 
-Kata décomposer en deux version d'algo 
+Kata Javascript FizzBuzz
 
 ##version 1 : 
 returne nombres entre 1-100 mais "Fizz" au lieu de multiples de 3 et "Buzz" au lieu 5
@@ -14,7 +14,9 @@ Node installé sur la machine
 ##Demo & instuction nstallation :
 
 1- cloner le repo `git clone https://github.com/abdel-djalil/FizzKata.git`
+
 2- installer les dépendences  `npm install`
+
 3- lancer l'application `node index.js {rule}` 
 
 ##lancer les tests  :

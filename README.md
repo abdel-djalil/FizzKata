@@ -22,7 +22,7 @@ Node installé sur la machine
 ##lancer les tests  :
 - lancer la commande `npm test`
  
-## examples de commande  :
+## exemples de commande  :
 - exemple avec rules (V3): 
 	`npm start 3 5`  
 - exemple sans rules (V2): 

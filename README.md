@@ -27,7 +27,8 @@ Node installé sur la machine
 	`npm start 3 5`  
 - exemple sans rules (V2): 
 	`npm start`
-## example d'integration 
+
+## exemple d'integration 
 - exemple d'utilisation du lib :
 
 `var Program  = require('./lib/fizzBuzz.js');`

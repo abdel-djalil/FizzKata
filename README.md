@@ -28,6 +28,10 @@ Node installé sur la machine
 - exemple sans rules (V2): 
 	`npm start`
 
+- exemple sans rules (V1): 
+	`npm start 1`
+
+
 ## exemple d'integration 
 - exemple d'utilisation du lib :
 

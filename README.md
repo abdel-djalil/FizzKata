@@ -20,10 +20,34 @@ Node installé sur la machine
 3- lancer l'application `npm start {rule}` 
 
 ##lancer les tests  :
-- lancer la commande 'npm test'
+- lancer la commande `npm test`
  
 ## examples de commande  :
-- example avec rules (V3): 
+- exemple avec rules (V3): 
 	`npm start 3 5`  
-- example sans rules (V2): 
+- exemple sans rules (V2): 
 	`npm start`
+## example d'integration 
+- exemple d'utilisation du lib :
+
+`var Program  = require('./lib/fizzBuzz.js');`
+
+`var fizzBuzz = new Program();`
+
+`fizzBuzz.run(version , fizz, buzz)`
+
+- lancer la première version 
+
+`fizzBuzz.run(1)`
+
+- lancer la deuxième version 
+
+`fizzBuzz.run(2)`
+
+- lancer la troisième version avec rules
+
+`fizzBuzz.run(3, 3, 5)`
+
+- lancer la troisième version sans rules
+
+`fizzBuzz.run(3)`
